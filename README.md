@@ -1,8 +1,11 @@
 # srt.awk
 
 usage:
-`$ awk -f srt.awk -v shift=<+-shift in seconds> infile.srt > outfile.srt `
+`$ awk -f srt.awk -v shift=<+-shift in seconds> infile.srt > outfile.srt ` 
+
 `$ awk -f srt.awk -v shift=45.675 infile.srt > outfile.srt `
+
+
 positive values for `shift` make subs appear later, negative values make them appear sooner
 
 
